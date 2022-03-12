@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+#msg {
+  display: block;
+  padding-left: 16px;
+  padding-bottom: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 80pt;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 150px;
+  letter-spacing: 0.4rem;
+}
+
+#msgrelogio {
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30pt;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+#msgtxt {
+  padding-left: 16px;
+  display: block;
+}
+
+.madrugada {
+  background-image: url('./img/madrugada.svg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 92%;
+}
+
+.manha {
+  background-image: url('./img/manha.svg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 92%;
+}
+.tarde {
+  background-image: url('./img/tarde.svg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 92%;
+}
+.noite {
+  background-image: url('./img/noite.svg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 92%;
+}
+.madrugada {
+  background-image: url('./img/madrugada.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 92%;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 9pt;
+  font-weight: 400;
+  margin: 0%;
+  padding-top: 10px;
+}
+
+header {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+#logo {
+  width: 250px;
+  float: left;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+/*section {
+  display: block;
+  background: white;
+  border-radius: 10px;
+
+  width: 400px;
+  height: 330px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+} */
+
+footer {
+  background-color: #000000;
+  display: block;
+  text-align: center;
+  height: 8%;
+}
+
+small {
+  font-family: 'Poppins', sans-serif;
+  font-size: 8pt;
+  color: #ffffff;
+}
