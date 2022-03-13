@@ -16,16 +16,15 @@ function carregar() {
 
   var configLocal = 'pt-BR' // Configuração do local
 
-  /* 
-    
-    ----------------------------------------------------
-    Teste para trocar BACKGROUND 
+  /* Teste para trocar BACKGROUND 
         */
 
-  // horaAtual = 0;   /* Boa madrugada */
+  // horaAtual = 00;   /* Boa madrugada */
   // horaAtual = 6;   /* Bom dia */
   // horaAtual = 12;  /* Boa tarde */
   // horaAtual = 19;  /* Boa noite */
+
+  // Condição
 
   if (horaAtual >= 0 && horaAtual < 5) {
     // BOA MADRUGADA
@@ -47,7 +46,7 @@ function carregar() {
 
   msgrel.innerHTML = `Agora são <strong>${horaAtual}:${min}:${sec}</strong> horas`
 
-  // Exibe o relógio com hora atual do sistema (somente horas, sem tetxo)
+  // Teste para exibe o relógio com hora atual do sistema (somente horas, sem tetxo)
   //msgrel.innerHTML = agora.toLocaleTimeString(configLocal)
 }
 // Chama a funcao no momento que a pagina é carregada
