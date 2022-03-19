@@ -24,7 +24,11 @@ function carregar() {
   // horaAtual = 12;  /* Boa tarde */
   // horaAtual = 19;  /* Boa noite */
 
-  // Condição
+  // Condição para horas, minutos e segundos ficarem com 2 digitos 07:07:07
+
+  if (horaAtual < 10) {
+    horaAtual = '0' + horaAtual
+  }
 
   if (sec < 10) {
     sec = '0' + sec
@@ -33,6 +37,8 @@ function carregar() {
   if (min < 10) {
     min = '0' + min
   }
+
+  // COndição para mensagem
 
   if (horaAtual >= 0 && horaAtual < 5) {
     // BOA MADRUGADA
