@@ -67,6 +67,9 @@ if (horaAtual >= 0 && horaAtual < 5) {
 }
 ```
 
+<img alt="Imagem do projeto01" src="https://github.com/jonathanppmaia/horadodia/blob/main/img/corr_cond_if.jpg?raw=true ">
+</div>
+
 ```javascript
 // Teste para exibe o relógio com hora atual do sistema (somente horas, sem texto)
 msgrel.innerHTML = agora.toLocaleTimeString(configLocal)
