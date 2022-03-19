@@ -16,8 +16,9 @@ function carregar() {
 
   var configLocal = 'pt-BR' // Configuração do local
 
-  /* Teste para trocar BACKGROUND
-   */
+  /* -----------------------
+  Teste para trocar BACKGROUND
+   ---------------------------*/
 
   // horaAtual = 00;   /* Boa madrugada */
   // horaAtual = 6;   /* Bom dia */
@@ -38,7 +39,7 @@ function carregar() {
     min = '0' + min
   }
 
-  // COndição para mensagem
+  // Condição para mensagem
 
   if (horaAtual >= 0 && horaAtual < 5) {
     // BOA MADRUGADA
