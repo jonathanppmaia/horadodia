@@ -26,6 +26,14 @@ function carregar() {
 
   // Condição
 
+  if (sec < 10) {
+    sec = '0' + sec
+  }
+
+  if (min < 10) {
+    min = '0' + min
+  }
+
   if (horaAtual >= 0 && horaAtual < 5) {
     // BOA MADRUGADA
     msg.innerHTML = 'Boa Madrugada!'
